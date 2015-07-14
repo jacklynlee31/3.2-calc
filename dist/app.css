@@ -1,0 +1,48 @@
+.screen {
+    height: 50px;
+}
+
+#mode, #value {
+    line-height: 50px;
+}
+
+#value {
+    float: right;
+    text-align: right;
+}
+
+.calculator .row {
+    width: 50%;
+    margin: auto;
+    overflow: auto;
+    padding: 0;
+}
+
+.calculator li {
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 0;
+    width: 33%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.number-button {
+    cursor: pointer;
+    background: #7FA5F8;
+}
+
+.mode-button {
+    cursor: pointer;
+    background: #F8CB8F;
+}
+
+.number-button:hover {
+    background: #BFCEF6;
+}
+
+.mode-button:hover {
+    background: #F6E1C3;
+}
